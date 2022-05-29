@@ -1,12 +1,12 @@
-package community.devos.nautical.rainbecomethunder;
+package community.devos.nautical.rainbethunder;
 
 import net.fabricmc.api.DedicatedServerModInitializer;
 import net.fabricmc.loader.api.FabricLoader;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-public class RainBecomeThunderServer implements DedicatedServerModInitializer {
-    public static final String MOD_ID = "rainbecomethunder";
+public class RainBeThunderServer implements DedicatedServerModInitializer {
+    public static final String MOD_ID = "rainbethunder";
     public static final String VERSION = FabricLoader.getInstance().getModContainer(MOD_ID).get().getMetadata().getVersion().getFriendlyString();
     public static final String MOD_NAME = FabricLoader.getInstance().getModContainer(MOD_ID).get().getMetadata().getName();
 
