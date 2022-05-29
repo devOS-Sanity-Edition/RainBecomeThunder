@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "community.devos.nautical.rainbecomethunder.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [],
+  "server": [
+    "RainRemover"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

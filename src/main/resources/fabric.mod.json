@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "rainbecomethunder",
+  "version": "${version}",
+
+  "name": "Rain Become Thunder",
+  "description": "do you just hate rain so much that you want it to become a thunderstorm so you can sleep? well here ya go!",
+  "authors": [
+    "IMS212",
+    "devOS: Sanity Edition"
+  ],
+  "contact": {
+    "homepage": "https://devos.one/",
+    "sources": "https://github.com/devOS-Sanity-Edition/RainBecomeThunder.git"
+  },
+
+  "license": "MIT",
+  "icon": "assets/rainbecomethunder/icon.png",
+
+  "environment": "server",
+  "entrypoints": {
+    "server": [
+      "community.devos.nautical.rainbecomethunder.RainBecomeThunderServer"
+    ]
+  },
+  "mixins": [
+    "rainbecomethunder.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": "*",
+    "minecraft": "*",
+    "java": ">=17"
+  }
+}
