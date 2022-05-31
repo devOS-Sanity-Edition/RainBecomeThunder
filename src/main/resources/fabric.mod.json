@@ -20,7 +20,7 @@
   "environment": "server",
   "entrypoints": {
     "server": [
-      "community.devos.nautical.rainbethunder.RainBeThunderServer"
+      "one.devos.nautical.rainbethunder.RainBeThunderServer"
     ]
   },
   "mixins": [

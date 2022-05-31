@@ -1,4 +1,4 @@
-package community.devos.nautical.rainbethunder.mixin;
+package one.devos.nautical.rainbethunder.mixin;
 
 import net.minecraft.core.Holder;
 import net.minecraft.resources.ResourceKey;

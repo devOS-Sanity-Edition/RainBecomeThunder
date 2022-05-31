@@ -1,4 +1,4 @@
-package community.devos.nautical.rainbethunder;
+package one.devos.nautical.rainbethunder;
 
 import net.fabricmc.api.DedicatedServerModInitializer;
 import net.fabricmc.loader.api.FabricLoader;
