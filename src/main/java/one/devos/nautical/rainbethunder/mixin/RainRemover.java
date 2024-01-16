@@ -1,6 +1,7 @@
 package one.devos.nautical.rainbethunder.mixin;
 
 import net.minecraft.core.Holder;
+import net.minecraft.core.RegistryAccess;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.util.profiling.ProfilerFiller;
@@ -24,8 +25,10 @@ import java.util.function.Supplier;
 public abstract class RainRemover extends Level {
     @Shadow @Final private ServerLevelData serverLevelData;
 
-    protected RainRemover(WritableLevelData writableLevelData, ResourceKey<Level> resourceKey, Holder<DimensionType> holder, Supplier<ProfilerFiller> supplier, boolean bl, boolean bl2, long l) {
-        super(writableLevelData, resourceKey, holder, supplier, bl, bl2, l);
+	protected RainRemover(WritableLevelData pLevel0, ResourceKey<Level> pResourceKey1,
+            RegistryAccess pRegistryAccess2, Holder<DimensionType> pHolder3, Supplier<ProfilerFiller> pSupplier4,
+            boolean pBoolean5, boolean pBoolean6, long pLong7, int pInt8) {
+        super(pLevel0, pResourceKey1, pRegistryAccess2, pHolder3, pSupplier4, pBoolean5, pBoolean6, pLong7, pInt8);
     }
 
     @Redirect(method = "advanceWeatherCycle", at = @At(value = "INVOKE", target = "Lnet/minecraft/world/level/storage/WritableLevelData;isThundering()Z"))
