@@ -17,12 +17,8 @@
   "license": "MIT",
   "icon": "assets/rainbethunder/icon.png",
 
-  "environment": "server",
-  "entrypoints": {
-    "server": [
-      "one.devos.nautical.rainbethunder.RainBeThunderServer"
-    ]
-  },
+  "environment": "*",
+
   "mixins": [
     "rainbethunder.mixins.json"
   ],
