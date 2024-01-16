@@ -18,6 +18,11 @@
   "icon": "assets/rainbethunder/icon.png",
 
   "environment": "*",
+  "entrypoints": {
+    "main": [
+      "one.devos.nautical.rainbethunder.RainBeThunder"
+    ]
+  },
 
   "mixins": [
     "rainbethunder.mixins.json"
